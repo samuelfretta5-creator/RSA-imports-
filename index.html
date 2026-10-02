@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSA Imports</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #eeeeee;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1d1d1d, #0066cc);
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .titulo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .produto {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 3px 10px #aaa;
+    }
+
+    .produto img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .produto h3 {
+      margin: 15px 0 8px;
+    }
+
+    .preco {
+      color: #0066cc;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .comprar {
+      display: inline-block;
+      background: #0066cc;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .comprar:hover {
+      background: #004c99;
+    }
+
+    footer {
+      background: #1d1d1d;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background: #25d366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 3px 10px #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>RSA IMPORTS</h1>
+    <p>Qualidade, confiança e os melhores produtos</p>
+  </header>
+
+  <div class="container">
+
+    <h2 class="titulo">Nossos Produtos</h2>
+
+    <div class="produtos">
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x200?text=Produto+1">
+        <h3>Produto 1</h3>
+        <p>Descrição do produto.</p>
+        <div class="preco">R$ 99,90</div>
+        <a class="comprar" href="https://wa.me/SEUNUMERO">
+          Comprar
+        </a>
+      </div>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x200?text=Produto+2">
+        <h3>Produto 2</h3>
+        <p>Descrição do produto.</p>
+        <div class="preco">R$ 149,90</div>
+        <a class="comprar" href="https://wa.me/SEUNUMERO">
+          Comprar
+        </a>
+      </div>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x200?text=Produto+3">
+        <h3>Produto 3</h3>
+        <p>Descrição do produto.</p>
+        <div class="preco">R$ 199,90</div>
+        <a class="comprar" href="https://wa.me/SEUNUMERO">
+          Comprar
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <a class="whatsapp" href="https://wa.me/SEUNUMERO">
+    WhatsApp
+  </a>
+
+  <footer>
+    © 2026 RSA Imports - Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
